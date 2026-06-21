@@ -1,14 +1,14 @@
 import type { Stage } from "@/types/content"
 
 export const SITE_NAME = "北京升学指南"
-export const SITE_DESCRIPTION = "北京升学一站式信息站，覆盖幼升小、小升初、中考等阶段，帮助家长了解入学政策、学校信息、择校方法"
+export const SITE_DESCRIPTION = "北京升学一站式信息站，覆盖幼升小、小升初、初升高（中考）等阶段，帮助家长了解入学政策、学校信息、择校方法"
 export const SITE_URL = "https://bjsxzn.com" // 临时占位，后续可改
 export const SITE_LOCALE = "zh-CN"
 
 export const STAGES: Array<{ slug: Stage; name: string; description: string; active: boolean }> = [
   { slug: "preschool-to-primary", name: "幼升小", description: "幼儿园 → 小学", active: true },
   { slug: "primary-to-middle", name: "小升初", description: "小学 → 初中", active: false },
-  { slug: "high-school", name: "中考", description: "初中 → 高中", active: false },
+  { slug: "high-school", name: "初升高", description: "初中 → 高中", active: false },
 ] as const
 
 export const DISTRICTS = [

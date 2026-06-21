@@ -17,7 +17,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "北京升学指南",
-    description: "北京升学一站式信息站，覆盖幼升小、小升初、中考等阶段，帮助家长了解入学政策、学校信息、择校方法",
+    description: "北京升学一站式信息站，覆盖幼升小、小升初、初升高（中考）等阶段，帮助家长了解入学政策、学校信息、择校方法",
     url: process.env.NEXT_PUBLIC_SITE_URL || "",
   }
 
@@ -32,7 +32,7 @@ export default function HomePage() {
             北京升学，从迷茫到清晰
           </h1>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
-            政策解读、学校档案、择校方法——覆盖幼升小、小升初、中考全阶段，帮北京家长做对每一次升学选择
+            政策解读、学校档案、择校方法——覆盖幼升小、小升初、初升高全阶段，帮北京家长做对每一次升学选择
           </p>
 
           {/* Stage selector buttons */}
@@ -41,7 +41,7 @@ export default function HomePage() {
               <Link
                 key={stage.slug}
                 href={`/stage/${stage.slug}`}
-                className={`relative inline-flex flex-col items-center px-8 py-5 rounded-2xl font-medium transition-all min-w-[160px] ${
+                className={`inline-flex flex-col items-center px-8 py-5 rounded-2xl font-medium transition-all min-w-[160px] ${
                   stage.active
                     ? "bg-primary text-white shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 scale-105"
                     : "bg-white text-text-secondary border-2 border-dashed border-border hover:border-primary-light hover:text-text-primary"
@@ -49,11 +49,6 @@ export default function HomePage() {
               >
                 <span className="text-lg font-semibold">{stage.name}</span>
                 <span className="text-xs mt-1 opacity-80">{stage.description}</span>
-                {stage.active && (
-                  <span className="absolute -top-2.5 -right-2.5 bg-accent text-white text-xs font-bold px-2.5 py-0.5 rounded-full">
-                    主攻
-                  </span>
-                )}
               </Link>
             ))}
           </div>
