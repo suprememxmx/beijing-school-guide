@@ -122,13 +122,19 @@ export function getRelatedContent(
     if (item.slug === excludeSlug) return false
     if (item.frontmatter.category === "schools") return false
 
-    const itemTags = item.frontmatter.tags || []
-    const tagMatch = itemTags.some((tag) =>
-      keywords.some((k) => tag.includes(k) || k.includes(tag)),
+    const safeTags = (item.frontmatter.tags || []).filter(
+      (t: unknown): t is string => typeof t === "string",
+    )
+    const safeKeywords = keywords.filter((k): k is string => typeof k === "string")
+
+    const tagMatch = safeTags.some((tag) =>
+      safeKeywords.some((k) => tag.includes(k) || k.includes(tag)),
     )
     const districtMatch = item.frontmatter.district === district
-    const titleMatch = keywords.some(
-      (k) => item.frontmatter.title.includes(k) || item.frontmatter.description.includes(k),
+    const titleMatch = safeKeywords.some(
+      (k) =>
+        (typeof item.frontmatter.title === "string" && item.frontmatter.title.includes(k)) ||
+        (typeof item.frontmatter.description === "string" && item.frontmatter.description.includes(k)),
     )
 
     return tagMatch || districtMatch || titleMatch
