@@ -1,3 +1,14 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "id": "cd39994a",
+      "cron": "57 9 27 06 *",
+      "prompt": "提醒用户：T+3 到了，24号发的两篇文章数据应该出来了。说复盘 predictions/2026-06-24_afffa218434f_考后消费.md 和复盘 predictions/2026-06-24_88677231815f_汽车保有量.md。先听用户说数据，再跑 cheat-retro。",
+      "createdAt": 1782259155662,
+      "recurring": true,
+      "createdBySessionId": "89bfd650-00c2-42c0-bf9d-29a7c08068d9",
+      "createdByPid": 78504,
+      "createdByProcStart": "Tue Jun  9 13:19:35 2026"
+    }
+  ]
 }

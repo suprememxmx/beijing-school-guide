@@ -1,0 +1,67 @@
+{
+  "_comment": "cheat-on-content hooks — installed by /cheat-init. Do not edit manually; re-run init to update.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PROJECT_DIR}/.cheat-hooks/prediction-immutability.sh",
+            "timeout": 3,
+            "async": false
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PROJECT_DIR}/.cheat-hooks/session-start.sh",
+            "timeout": 5,
+            "async": false
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PROJECT_DIR}/.cheat-hooks/log-event.sh tool_use &",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PROJECT_DIR}/.cheat-hooks/log-event.sh user_prompt &",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PROJECT_DIR}/.cheat-hooks/log-event.sh session_end &",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

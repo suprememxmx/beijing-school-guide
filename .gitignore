@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ── cheat-on-content: 凭证不提交 ──
+.auth/
+.auth-xhs/
+.auth-linkedin/
+.cheat-secrets.json
+
+# ── cheat-on-content: 本地缓存与生成物 ──
+.cheat-cache/
+.cheat-hooks/
+.debug/
+
+# ── cheat-on-content: Python（adapter 工具脚本）──
+__pycache__/
+*.py[cod]
+*$py.class
