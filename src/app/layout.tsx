@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import WeChatContact from "@/components/WeChatContact"
 import "./globals.css"
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants"
 
@@ -36,6 +37,9 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-sans antialiased">
         <Header />
         <main className="flex-1">{children}</main>
+        <section className="max-w-5xl mx-auto px-4 py-8">
+          <WeChatContact />
+        </section>
         <Footer />
         {/* Baidu auto-push for SEO */}
         <script
