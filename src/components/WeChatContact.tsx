@@ -26,7 +26,7 @@ export default function WeChatContact() {
   return (
     <>
       {/* Desktop: fixed right sidebar - hidden on mobile */}
-      <div className="hidden lg:block fixed right-[calc(50%-760px)] top-32 z-40 w-56">
+      <div className="hidden lg:block fixed right-[calc(50%-760px)] top-48 z-40 w-56">
         <div className="bg-white rounded-2xl border border-border shadow-lg p-5">
           <div className="flex items-center gap-3 mb-4 pb-4 border-b border-border">
             <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
