@@ -1,5 +1,5 @@
 export type ContentType = "guides" | "policies" | "comparisons" | "schools"
-export type Stage = "preschool-to-primary" | "primary-to-middle" | "high-school"
+export type Stage = "preschool-to-primary" | "primary-to-middle" | "middle-to-high"
 
 export interface ContentFrontmatter {
   title: string

@@ -7,8 +7,8 @@ export const SITE_LOCALE = "zh-CN"
 
 export const STAGES: Array<{ slug: Stage; name: string; description: string; active: boolean }> = [
   { slug: "preschool-to-primary", name: "幼升小", description: "幼儿园 → 小学", active: true },
-  { slug: "primary-to-middle", name: "小升初", description: "小学 → 初中", active: false },
-  { slug: "high-school", name: "初升高", description: "初中 → 高中", active: false },
+  { slug: "primary-to-middle", name: "小升初", description: "小学 → 初中", active: true },
+  { slug: "middle-to-high", name: "初升高", description: "初中 → 高中", active: true },
 ] as const
 
 export const DISTRICTS = [

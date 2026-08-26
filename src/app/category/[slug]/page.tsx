@@ -9,6 +9,7 @@ import type { ContentType } from "@/types/content"
 
 type Props = {
   params: Promise<{ slug: string }>
+  searchParams: Promise<{ stage?: string }>
 }
 
 const VALID_CATEGORIES: ContentType[] = ["guides", "policies", "comparisons"]
@@ -28,15 +29,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function CategoryPage({ params }: Props) {
+export default async function CategoryPage({ params, searchParams }: Props) {
   const { slug } = await params
+  const { stage } = await searchParams
   const cat = CONTENT_CATEGORIES.find((c) => c.slug === slug)
 
   if (!cat || !VALID_CATEGORIES.includes(slug as ContentType)) {
     notFound()
   }
 
-  const articles = getContentFiles(slug as ContentType)
+  const articles = getContentFiles(slug as ContentType).filter(
+    (item) => !stage || item.frontmatter.stage === stage,
+  )
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
