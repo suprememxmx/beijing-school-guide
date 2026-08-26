@@ -1,7 +1,7 @@
 ---
 title: 北京校额到校政策全解析｜普通初中学生进优质高中的捷径
 slug: beijing-high-school-xiaoetdaoxiao
-category: guides
+category: policies
 stage: middle-to-high
 city: beijing
 tags: [校额到校, 中考, 高中录取, 政策解读]

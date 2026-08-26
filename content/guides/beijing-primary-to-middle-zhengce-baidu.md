@@ -1,7 +1,7 @@
 ---
 title: 北京小升初阳光招生政策解读｜2024-2026年招生规范化进程
 slug: beijing-primary-to-middle-zhengce-baidu
-category: guides
+category: policies
 stage: primary-to-middle
 city: beijing
 tags: [小升初, 阳光招生, 政策解读, 招生规范化]

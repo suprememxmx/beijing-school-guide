@@ -1,7 +1,7 @@
 ---
 title: 北京中考统一招生与校额到校的录取规则｜录取顺序与志愿策略
 slug: beijing-zhongkao-tongzhao-hedui
-category: guides
+category: policies
 stage: middle-to-high
 city: beijing
 tags: [中考录取, 统一招生, 校额到校, 志愿策略]

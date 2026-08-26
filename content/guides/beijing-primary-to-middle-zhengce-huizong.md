@@ -1,7 +1,7 @@
 ---
 title: 北京小升初政策变化趋势分析｜2024-2026年政策走向
 slug: beijing-primary-to-middle-zhengce-huizong
-category: guides
+category: policies
 stage: primary-to-middle
 city: beijing
 tags: [小升初, 政策变化, 趋势, 2026]

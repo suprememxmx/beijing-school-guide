@@ -1,7 +1,7 @@
 ---
 title: 北京中考复读政策解读｜考不好可以复读吗？怎么复读？
 slug: beijing-zhongkao-zhongdian-shuyuan
-category: guides
+category: policies
 stage: middle-to-high
 city: beijing
 tags: [中考, 复读, 再战, 政策解读]

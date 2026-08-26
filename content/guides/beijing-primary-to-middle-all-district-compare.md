@@ -1,7 +1,7 @@
 ---
 title: 北京各区小升初政策横向对比｜派位、直升、民办各有什么不同？
 slug: beijing-primary-to-middle-all-district-compare
-category: guides
+category: policies
 stage: primary-to-middle
 city: beijing
 tags: [小升初, 各区对比, 派位, 直升, 民办]
