@@ -99,4 +99,4 @@ description: 中关村三小和人大附小是海淀区关注度最高的两所�
 **延伸阅读：**
 - [海淀 vs 西城入学政策对比](/haidian-vs-xicheng-policy)
 - [清华大学附属小学介绍](/schools/qinghua-fuxiao)
-- [北京大学附属小学介绍](/schools/beida-fuxiao)
+- [北京大学附属小学介绍](/schools)

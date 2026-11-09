@@ -82,5 +82,5 @@ A：校园就在清华大学内，能就近感受大学的学术氛围，体育�
 ---
 
 **延伸阅读：**
-- [人大附中 vs 清华附中对比](/rdfz-vs-qhfz)
+- [人大附中 vs 清华附中对比](/comparison/rdfz-vs-qhfz)
 - [北京各区重点高中盘点](/beijing-gequ-zhongdian-gaozhong-jieshao)

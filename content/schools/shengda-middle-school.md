@@ -90,6 +90,6 @@ A：按往年大致在 8-10 万/年区间，具体以学校当年公布为准，
 ---
 
 **延伸阅读：**
-- [师达中学 vs 建华实验学校](/comparisons/shengda-vs-jianhua)
+- [师达中学 vs 建华实验学校](/comparison/shengda-vs-jianhua)
 - [北京民办初中选择指南](/beijing-private-middle-school-list)
 - [海淀区小升初全攻略](/haidian-xiaoshengchu-guide)

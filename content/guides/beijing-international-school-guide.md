@@ -88,5 +88,5 @@ description: 北京的国际学校数量全国最多，类型也最丰富。纯�
 ---
 
 **延伸阅读：**
-- [北京私立小学推荐与盘点](/beijing-private-primary-list)
+- [北京私立小学推荐与盘点](/beijing-private-primary-overview)
 - [从哪些维度评价一所小学好不好](/how-to-evaluate-primary-school)

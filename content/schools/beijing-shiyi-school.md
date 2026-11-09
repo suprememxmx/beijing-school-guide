@@ -89,6 +89,6 @@ A：十一学校的走班制不是放任，而是把学习的主动权交给学�
 ---
 
 **延伸阅读：**
-- [十一学校 vs 北京四中](/comparisons/shiyi-vs-sizhong)
+- [十一学校 vs 北京四中](/comparison/shiyi-vs-sizhong)
 - [海淀区小升初全攻略](/haidian-xiaoshengchu-guide)
 - [北京小升初六种入学方式](/beijing-xiaoshengchu-ways)

@@ -82,5 +82,5 @@ A：ICC项目体系成熟，毕业生进入世界名校的比例很高，适合�
 ---
 
 **延伸阅读：**
-- [人大附中 vs 清华附中对比](/rdfz-vs-qhfz)
+- [人大附中 vs 清华附中对比](/comparison/rdfz-vs-qhfz)
 - [北京各区重点高中盘点](/beijing-gequ-zhongdian-gaozhong-jieshao)

@@ -83,6 +83,6 @@ A：实验中学整体师资均衡，普通班的培养体系也很完整。只�
 ---
 
 **延伸阅读：**
-- [北京四中 vs 北师大附属实验中学对比](/sizhong-vs-shiyan)
+- [北京四中 vs 北师大附属实验中学对比](/comparison/sizhong-vs-shiyan)
 - [北京八中介绍](/schools/beijing-no8-middle-school)
 - [北京各区重点高中盘点](/beijing-gequ-zhongdian-gaozhong-jieshao)
