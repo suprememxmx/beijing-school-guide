@@ -95,4 +95,4 @@ description: 北京中考特长生招生是进入优质高中的重要途径之�
 **延伸阅读：**
 - [北京中考各科备考指南](/beijing-zhongkao-subject-guide)
 - [北京中考体育考试指南](/beijing-zhongkao-tiyu-guide)
-- [北京中考志愿填报指南](/beijing-high-school-apply-guide)
+- [北京中考志愿填报指南](/beijing-zhongkao-zhiyuan-quanliucheng)

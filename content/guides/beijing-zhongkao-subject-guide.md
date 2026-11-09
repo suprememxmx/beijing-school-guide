@@ -91,5 +91,5 @@ description: 北京中考的考试科目和分值设置与其他省市有所不�
 
 **延伸阅读：**
 - [北京中考入门指南](/beijing-high-school-entrance-intro)
-- [北京中考志愿填报指南](/beijing-high-school-apply-guide)
+- [北京中考志愿填报指南](/beijing-zhongkao-zhiyuan-quanliucheng)
 - [北京校额到校政策全解析](/beijing-high-school-xiaoetdaoxiao)

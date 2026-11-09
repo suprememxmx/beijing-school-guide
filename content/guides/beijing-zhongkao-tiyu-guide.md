@@ -72,4 +72,4 @@ description: 北京中考体育考试分值40-60分，是中考中最好拿的�
 **延伸阅读：**
 - [北京中考各科备考指南](/beijing-zhongkao-subject-guide)
 - [北京中考入门指南](/beijing-high-school-entrance-intro)
-- [北京中考志愿填报指南](/beijing-high-school-apply-guide)
+- [北京中考志愿填报指南](/beijing-zhongkao-zhiyuan-quanliucheng)

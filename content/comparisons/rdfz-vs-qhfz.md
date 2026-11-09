@@ -110,5 +110,5 @@ description: 人大附中和清华附中是海淀区乃至全北京关注度最�
 **延伸阅读：**
 - [中国人民大学附属中学介绍](/schools/rdfz)
 - [清华大学附属中学介绍](/schools/qhfz)
-- [北京各区重点高中盘点](/beijing-zhongkao-zhongdian-gaozhong-pan)
+- [北京各区重点高中盘点](/beijing-gequ-zhongdian-gaozhong-jieshao)
 - [北京重点高中特色实验班盘点](/beijing-zhongkao-ti-kao-xuexiao)

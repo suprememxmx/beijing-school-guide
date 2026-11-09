@@ -86,5 +86,5 @@ description: 信息采集完之后，还有很多事要做——学校报名、�
 
 **延伸阅读：**
 - [北京幼升小全流程时间线](/beijing-preschool-to-primary-timeline)
-- [北京幼升小网上报名全流程](/beijing-online-registration-guide)
+- [北京幼升小网上报名全流程](/beijing-primary-school-registration-step)
 - [信息采集操作指南](/beijing-info-collection-guide)

@@ -85,4 +85,4 @@ A：八中高中部地处金融街核心区，走读为主，住宿名额很少�
 **延伸阅读：**
 - [北京四中 vs 北师大附属实验中学对比](/sizhong-vs-shiyan)
 - [北师大附属实验中学介绍](/schools/beijing-shiyan)
-- [北京各区重点高中盘点](/beijing-zhongkao-zhongdian-gaozhong-pan)
+- [北京各区重点高中盘点](/beijing-gequ-zhongdian-gaozhong-jieshao)

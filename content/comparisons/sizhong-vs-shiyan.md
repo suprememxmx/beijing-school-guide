@@ -110,5 +110,5 @@ description: 北京四中和北师大附属实验中学是西城区最受关注�
 **延伸阅读：**
 - [北师大附属实验中学介绍](/schools/beijing-shiyan)
 - [北京八中介绍](/schools/beijing-no8-middle-school)
-- [北京各区重点高中盘点](/beijing-zhongkao-zhongdian-gaozhong-pan)
+- [北京各区重点高中盘点](/beijing-gequ-zhongdian-gaozhong-jieshao)
 - [北京重点高中特色实验班盘点](/beijing-zhongkao-ti-kao-xuexiao)
