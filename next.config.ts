@@ -225,7 +225,7 @@ const nextConfig: NextConfig = {
     return REDIRECTS.map(([source, destination]) => ({
       source,
       destination,
-      permanent: true,
+      statusCode: 301,
     }));
   },
 };
