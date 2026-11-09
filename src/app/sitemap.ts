@@ -34,8 +34,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ]
 
-  // Category pages
-  for (const cat of CONTENT_CATEGORIES) {
+  // Category pages（schools 有独立路由 /schools，不走 /category/schools）
+  for (const cat of CONTENT_CATEGORIES.filter((c) => c.slug !== "schools")) {
     entries.push({
       url: `${SITE_URL}/category/${cat.slug}`,
       lastModified: new Date(),
